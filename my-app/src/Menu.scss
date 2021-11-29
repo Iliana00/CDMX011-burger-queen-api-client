@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&display=swap');
+$pink-color: #FF0099;
+$yellow-color: #FFE045;
+$white-color:#FFFFFF;
+$black-color:#000000;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    background-color: antiquewhite;
+}
+.center-self {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    align-items: center;
+
+}
+.cont-2 {
+    width: 100%;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.child-1{
+width: 26%;
+}
+#child-3 {
+    font-family: 'Big Shoulders Display', cursive;
+    align-self: center;
+}
+.bttn-logout {
+    width: 100%;
+    padding: 6px 5px 6px 5px;
+    background-color: $pink-color;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    border-radius: 4px;   
+    font-family: 'Roboto', sans-serif; 
+    font-size: 0.9rem;
+    border: none;
+}
+.bttn-order {
+    width: 50%;
+    padding: 6px 0px 6px 0px;
+    background-color: $yellow-color;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+    border-radius: 4px;   
+    font-family: 'Roboto', sans-serif; 
+    font-size: 0.8rem;
+    border: none;
+}
+.bttn-breakfast {
+    margin-top: 1rem;
+    width: 20%;
+    padding: 6px 0px 6px 0px;
+    background-color: $yellow-color;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+    border-radius: 4px;   
+    font-family: 'Roboto', sans-serif; 
+    font-size: 0.8rem;
+    border: none;
+    margin: 0 10px 0 10px;
+}
+.bttn-lunch {
+    margin-top: 1rem;
+    width: 20%;
+    padding: 6px 0px 6px 0px;
+    background-color: $yellow-color;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+    border-radius: 4px;   
+    font-family: 'Roboto', sans-serif; 
+    font-size: 0.8rem;
+    border: none;
+    margin-left: 0 10px 0 10px;
+}
