@@ -4,12 +4,12 @@ export class Product extends Component {
     constructor(props) {
       super(props);
       this.state = {
-        posts:[]
+        product:[]
       }
     };
   
     componentDidMount(){
-      let url = "http://localhost:3001/product"
+      let url = "https://my-json-server.typicode.com/iliana00/CDMX011-burger-queen-api-client/product?type=desayuno"
       fetch(url)
       .then(resp => resp.json())
       .then(data => {

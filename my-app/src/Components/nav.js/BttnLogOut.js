@@ -2,6 +2,7 @@ import { auth } from "../../firebase/firebase.Config";
 import { signOut } from "@firebase/auth";
 import { useNavigate } from "react-router";
 import React, { useState } from "react";
+import "../../../src/Menu.scss"
 
 export default function BttnLogout() {
     const navigate = useNavigate();
@@ -18,7 +19,7 @@ export default function BttnLogout() {
       };     
       return(
         <div>        
-        <button className="bttnLogout" onClick={handlesignOut}>Cerrar sesión</button>
+        <button className="bttn-logout" onClick={handlesignOut}>Cerrar sesión</button>
         <div className="error">{error}</div>
         </div>
       )
