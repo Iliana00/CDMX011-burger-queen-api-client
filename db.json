@@ -1,8 +1,8 @@
-{ "product": [
+{ "products": [
       {
         "_id": "1",
         "name": "Cafe Americano",
-        "price": "5$",
+        "price": "5",
         "image": "",
         "type": "desayuno",
         "dateEntry": ""
@@ -10,7 +10,7 @@
       {
         "_id": "2",
         "name": "Cafe con Leche",
-        "price": "5$",
+        "price": "5",
         "image": "",
         "type": "desayuno",
         "dateEntry": ""
@@ -18,7 +18,7 @@
       {
         "_id": "3",
         "name": "Sándwich de jamón y queso",
-        "price": "10$",
+        "price": "10",
         "image": "",
         "type": "desayuno",
         "dateEntry": ""
@@ -26,7 +26,7 @@
       {
         "_id": "4",
         "name": "Jugo de frutas natural",
-        "price": "7$",
+        "price": "7",
         "image": "",
         "type": "desayuno",
         "dateEntry": ""
@@ -34,7 +34,7 @@
       {
         "_id": "5",
         "name": " Hamburguesa simple",
-        "price": "10$",
+        "price": "10",
         "image": "",
         "type": "almuerzo",
         "dateEntry": ""
@@ -42,7 +42,7 @@
       {
         "_id": "6",
         "name": "Hamburguesa doble",
-        "price": "15$",
+        "price": "15",
         "image": "",
         "type": "almuerzo",
         "dateEntry": ""
@@ -50,7 +50,7 @@
       {
         "_id": "7",
         "name": "Papas fritas",
-        "price": "5$",
+        "price": "5",
         "image": "",
         "type": "almuerzo",
         "dateEntry": ""
@@ -58,7 +58,7 @@
       {
         "_id": "8",
         "name": "Aros de cebolla",
-        "price": "5$",
+        "price": "5",
         "image": "",
         "type": "almuerzo",
         "dateEntry": ""
@@ -74,7 +74,7 @@
       {
         "_id": "10",
         "name": "Agua 750ml",
-        "price": "7$",
+        "price": "7",
         "image": "",
         "type": "almuerzo",
         "dateEntry": ""
@@ -82,7 +82,7 @@
       {
         "_id": "11",
         "name": "Bebida/gaseosa 500ml",
-        "price": "7$",
+        "price": "7",
         "image": "",
         "type": "almuerzo",
         "dateEntry": ""
@@ -90,12 +90,28 @@
       {
         "_id": "12",
         "name": "Bebida/gaseosa 750ml",
-        "price": "10$",
+        "price": "10",
         "image": "",
         "type": "almuerzo",
         "dateEntry": ""
       }
-    ]
+    ],
+  "orders": [
+    {
+    "_id": "",
+    "userId": "",
+    "client":"",
+    "products":[
+      {
+      "qty": "",
+      "product": ""
+    }
+  ],
+    "status":"",
+    "dateEntry": "",
+    "dateProcessed": ""
+  }    
+  ]
   }
  
 
