@@ -1,0 +1,27 @@
+.desayuno{
+    width: 40%;
+    background-color: aqua;
+}
+.menu-desayuno{
+    width: 100%;
+    height: 10vh;
+}
+.hijo-desayuno{
+    flex-direction: row;
+    display: flex;
+}
+.img-product{
+    width: 9%;
+}
+.menos{
+    width: 20px;
+    height: 20px;
+}
+.mas{
+    width: 20px;
+    height: 20px;
+}
+.hr-padre{
+    display: flex;
+    flex-direction: column;
+}
