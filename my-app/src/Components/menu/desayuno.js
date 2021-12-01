@@ -12,14 +12,14 @@ export  class Desayuno extends Component {
     };
   
     componentDidMount(){
-      let url = "https://my-json-server.typicode.com/iliana00/CDMX011-burger-queen-api-client/product?type=almuerzo"
+      let url = "https://my-json-server.typicode.com/iliana00/CDMX011-burger-queen-api-client/products?type=almuerzo"
       fetch(url)
       .then(resp => resp.json())
       .then(data => {
 
-        let posts=data.map((product) => {
+        let posts = data.map((product, index) => {
             return ( 
-              <div className="menu-desayuno">
+              <div className="menu-desayuno" key={index}>
                 <div className="hr-padre">
                 <hr/> 
              </div> 
