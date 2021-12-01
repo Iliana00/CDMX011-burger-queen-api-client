@@ -35,7 +35,7 @@
         "_id": "5",
         "name": " Hamburguesa simple",
         "price": "10",
-        "image": "",
+        "image": "https://ibb.co/S5qgGbP",
         "type": "almuerzo",
         "dateEntry": ""
       },
@@ -43,7 +43,7 @@
         "_id": "6",
         "name": "Hamburguesa doble",
         "price": "15",
-        "image": "",
+        "image": "https://ibb.co/S5qgGbP",
         "type": "almuerzo",
         "dateEntry": ""
       },
@@ -51,7 +51,7 @@
         "_id": "7",
         "name": "Papas fritas",
         "price": "5",
-        "image": "",
+        "image": "https://ibb.co/j42Lz5D",
         "type": "almuerzo",
         "dateEntry": ""
       },
@@ -59,7 +59,7 @@
         "_id": "8",
         "name": "Aros de cebolla",
         "price": "5",
-        "image": "",
+        "image": "https://ibb.co/7jYLW6F",
         "type": "almuerzo",
         "dateEntry": ""
       },
@@ -67,7 +67,7 @@
         "_id": "9",
         "name": "Agua 500ml",
         "price": "5$",
-        "image": "",
+        "image": "https://ibb.co/dtMbG5g",
         "type": "almuerzo",
         "dateEntry": ""
       },
@@ -75,7 +75,7 @@
         "_id": "10",
         "name": "Agua 750ml",
         "price": "7",
-        "image": "",
+        "image": "https://ibb.co/dtMbG5g",
         "type": "almuerzo",
         "dateEntry": ""
       },
@@ -83,7 +83,7 @@
         "_id": "11",
         "name": "Bebida/gaseosa 500ml",
         "price": "7",
-        "image": "",
+        "image": "https://ibb.co/0q0wSwK",
         "type": "almuerzo",
         "dateEntry": ""
       },
@@ -91,7 +91,7 @@
         "_id": "12",
         "name": "Bebida/gaseosa 750ml",
         "price": "10",
-        "image": "",
+        "image": "https://ibb.co/0q0wSwK",
         "type": "almuerzo",
         "dateEntry": ""
       }
