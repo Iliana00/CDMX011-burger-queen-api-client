@@ -1,0 +1,19 @@
+$amarill-transp: rgba(255, 224, 69, 0.16);
+$pink-color: #FF0099;
+$yellow-color: #FFE045;
+$white-color:#FFFFFF;
+$black-color:#000000;
+
+.container-carrito{
+    width: 50%;
+    margin-top: 1rem ;
+    margin-right: 3rem; 
+    display: flex;
+    justify-content: flex-end;
+}
+.carrito-1{
+    width: 85%;
+    background-color: $amarill-transp;
+    border: 2px solid $yellow-color;
+    border-radius: 5px
+}

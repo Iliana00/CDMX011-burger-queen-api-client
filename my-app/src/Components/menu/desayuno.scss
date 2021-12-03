@@ -1,27 +1,56 @@
+$amarill-transp: rgba(255, 224, 69, 0.16);
+
 .desayuno{
-    width: 40%;
-    background-color: aqua;
+    width: 50%;;
+    margin-top: 1rem ;
+    margin-left: 1rem;
+}
+.precio{
+    display: flex;
+    padding-right: 10%;    
+    flex-direction: column;
+    width: 100%;
+    height: 7vh;
+    background-color: $amarill-transp;
+    justify-content: center;
+    align-items: flex-end;
+    margin: auto;
 }
 .menu-desayuno{
-    width: 100%;
-    height: 10vh;
-}
-.hijo-desayuno{
-    flex-direction: row;
     display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 7vh;
+    background-color: $amarill-transp;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 .img-product{
-    width: 9%;
+    width: 20%;
+    height: 7vh;
+    margin: .5rem;       
 }
-.menos{
+.productname{
+    width: 40%;
+    height: 7vh;
+
+}
+.bttns{
+    width: 35%;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pdtimg{
+    width: 2rem;     
+}
+ .menos{
     width: 20px;
     height: 20px;
 }
 .mas{
     width: 20px;
     height: 20px;
-}
-.hr-padre{
-    display: flex;
-    flex-direction: column;
-}
+} 

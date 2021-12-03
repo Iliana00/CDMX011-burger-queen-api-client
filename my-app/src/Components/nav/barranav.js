@@ -22,7 +22,8 @@ export default function BarraNav() {
         </div>
           
       </div>
-    <div><button className="bttn-breakfast">DESAYUNOS</button> 
+    <div className="bkf-lunch">
+    <button className="bttn-breakfast">DESAYUNOS</button> 
     <button className="bttn-lunch">ALMUERZOS</button>
     </div>
       {/* <div >

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import Agua from "../../img/agua.png"
+
+
 import "./desayuno.scss"
  
 
@@ -19,23 +20,19 @@ export  class Desayuno extends Component {
 
         let posts = data.map((product, index) => {
             return ( 
-              <div className="menu-desayuno" key={index}>
-                <div className="hr-padre">
-                <hr/> 
-             </div> 
-                <div className="hijo-desayuno">          
-                <img className="img-product" src={Agua} alt="logos food"/>
+              <div className="menu-desayuno" key={index}>                             
+                <div className="img-product">
+                <img className="pdtimg" src={product.image} alt="logos food"/>
+                </div>                     
+                
+                <div className="productname">
                 <h3>{product.name}</h3>
-                <button className="menos">-</button>
+                </div>                
+                <div className="bttns">
                 <p> {product.price}</p>   
-                <button className="mas">+</button>  
-                        
-               </div>
-                 
-              </div>                                      
-                                     
-            )
-                                                    
+                </div>                                                                          
+              </div>                                                                           
+            )                                                    
         })
         this.setState({posts:posts});
       })
@@ -43,8 +40,11 @@ export  class Desayuno extends Component {
     render() {
       return (
       <div className="desayuno">
+        <div className="precio">
         <p>Precio</p>
-        {this.state.posts}
+        </div>
+        
+        {this.state.posts}        
       </div>
       );
     }
