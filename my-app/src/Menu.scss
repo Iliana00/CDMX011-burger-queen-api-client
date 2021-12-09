@@ -10,6 +10,7 @@ $black-color:#000000;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    border: none;
 }
 /* p{
     background-color: antiquewhite;
@@ -20,7 +21,6 @@ $black-color:#000000;
     justify-content: center;
     width: 25%;
     align-items: center;
-
 }
 .cont-2 {
     width: 100%;
@@ -34,6 +34,7 @@ width: 26%;
 }
 #child-3 {
     font-family: 'Big Shoulders Display', cursive;
+    font-size: 1.3rem;
     align-self: center;
 }
 .bttn-logout {
@@ -60,12 +61,29 @@ width: 26%;
     font-size: 0.8rem;
     border: none;
 }
-.bkf-lunch{    
-    margin-left: 5%;
+.second-container{  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.bbtn-food{
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    margin-right: 1rem;
+}
+
+.name-client{
+    width: 40%;    
 }
 .bttn-breakfast {
-    margin-top: 1rem;
-    width: 20%;
+    width: 30%;
+    height: 5vh;
     padding: 6px 0px 6px 0px;
     background-color: $yellow-color;
     font-weight: bold;
@@ -75,11 +93,11 @@ width: 26%;
     font-family: 'Roboto', sans-serif; 
     font-size: 0.8rem;
     border: none;
-    margin: 0 10px 0 10px;
+    margin-right: 3rem;
 }
 .bttn-lunch {
-    margin-top: 1rem;
-    width: 20%;
+    width: 30%;
+    height: 5vh;
     padding: 6px 0px 6px 0px;
     background-color: $yellow-color;
     font-weight: bold;
@@ -89,5 +107,4 @@ width: 26%;
     font-family: 'Roboto', sans-serif; 
     font-size: 0.8rem;
     border: none;
-    margin-left: 0 10px 0 10px;
 }

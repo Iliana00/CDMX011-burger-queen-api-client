@@ -1,0 +1,29 @@
+$pink-color: #FF0099;
+$yellow-color: #FFE045;
+$white-color:#FFFFFF;
+$black-color:#000000;
+$yellow-color: #FFE045;
+$amarill-transp: rgba(255, 224, 69, 0.16);
+
+.container-order{
+    width: 80%;
+    height:  auto;
+    display: flex;
+    margin: auto;
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.table-order{
+    width: 45%;
+    border: 2px solid $yellow-color;
+    background-color: $amarill-transp;
+    padding: 10px;
+    margin-top: 10%;
+    font-size: 1.3rem;
+}
+.order-req{
+    font-style: italic;
+    border-spacing: 10px 5px
+}

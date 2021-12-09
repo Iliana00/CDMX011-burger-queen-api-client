@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 
-import "./desayuno.scss"
+//import "./desayuno.scss"
  
 
 export  class Desayuno extends Component {

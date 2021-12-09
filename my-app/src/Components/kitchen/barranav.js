@@ -1,7 +1,8 @@
 import { authUser } from "../User";
-import BttnLogout from "./BttnLogOut";
+import BttnLogout from "../nav/BttnLogOut";
 import "../../Menu.scss"
 import Logo from "../../img/bq_logo.png";
+
 
 
 export default function BarraNav() {
@@ -12,7 +13,7 @@ export default function BarraNav() {
       <div className="cont-2" >
         <img className="child-1" src={Logo} alt="Logo"></img>
         <div className="center-self">
-          <button className="bttn-order">PEDIDOS</button>
+          <button className="bttn-order">PEDIDOS ( )</button>
         </div>
         <div className="center-self">
           <p id="child-3"> {currentUser?.email} </p>

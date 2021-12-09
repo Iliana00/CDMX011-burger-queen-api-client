@@ -5,6 +5,7 @@ import Menu from "./Components/menu/menu";
 import LogIn from "./Components/Login";
 import { PrivateRoute } from "./PrivateRoute";
 import "./Form.scss"
+import Kitchen from "./Components/kitchen/screenkitchen";
 
 export function App() {
   return (
@@ -13,11 +14,15 @@ export function App() {
         <Routes>
           <Route exact path="/" element={<LogIn />} />
           <Route exact path="/menu" element={
-            <PrivateRoute>
+            <PrivateRoute>            
               <Menu/>
             </PrivateRoute>
-          } />                   
+          } />      
+          <Route exact path="/kitchen" element={                   
+              <Kitchen/>              
+          } />                 
         </Routes>
+        
       </Router>
     </div>
   );

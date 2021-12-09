@@ -1,107 +1,98 @@
-
-{ "order":[
-  
-],
-  "product": [
-      {
-        "_id": "1",
-        "name": "Cafe Americano",
-        "price": "5",
-        "image": "./my-app/src/img/agua.png",
-        "type": "desayuno",
-        "dateEntry": ""
-      },
-      {
-        "_id": "2",
-        "name": "Cafe con Leche",
-        "price": "5",
-        "image": "./my-app/src/img/agua.png",
-        "type": "desayuno",
-        "dateEntry": ""
-      },
-      {
-        "_id": "3",
-        "name": "Sándwich de jamón y queso",
-        "price": "10",
-        "image": "",
-        "type": "desayuno",
-        "dateEntry": ""
-      },
-      {
-        "_id": "4",
-        "name": "Jugo de frutas natural",
-        "price": "7",
-        "image": "",
-        "type": "desayuno",
-        "dateEntry": ""
-      },
-      {
-        "_id": "5",
-        "name": " Hamburguesa simple",
-        "price": "10",
-        "image": "./my-app/src/img/hamburguesa.png",
-        "type": "almuerzo",
-        "dateEntry": ""
-      },
-      {
-        "_id": "6",
-        "name": "Hamburguesa doble",
-        "price": "15",
-        "image": "./my-app/src/img/hamburguesa.png",
-        "type": "almuerzo",
-        "dateEntry": ""
-      },
-      {
-        "_id": "7",
-        "name": "Papas fritas",
-        "price": "5",
-        "image": "./my-app/src/img/papas-fritas.png",
-        "type": "almuerzo",
-        "dateEntry": ""
-      },
-      {
-        "_id": "8",
-        "name": "Aros de cebolla",
-        "price": "5",
-        "image": "",
-        "type": "almuerzo",
-        "dateEntry": ""
-      },
-      {
-        "_id": "9",
-        "name": "Agua 500ml",
-        "price": "5",
-        "image": "./my-app/src/img/agua.png",
-        "type": "almuerzo",
-        "dateEntry": ""
-      },
-      {
-        "_id": "10",
-        "name": "Agua 750ml",
-        "price": "7",
-        "image": "./my-app/src/img/agua.png",
-        "type": "almuerzo",
-        "dateEntry": ""
-      },
-      {
-        "_id": "11",
-        "name": "Bebida/gaseosa 500ml",
-        "price": "7",
-        "image": "./my-app/src/img/soda.png",
-        "type": "almuerzo",
-        "dateEntry": ""
-      },
-      {
-        "_id": "12",
-        "name": "Bebida/gaseosa 750ml",
-        "price": "10",
-        "image": "",
-        "type": "almuerzo",
-        "dateEntry": ""
-      }
-    ]
+[
+  {
+    "_id": "1",
+    "name": "Cafe Americano",
+    "price": "5",
+    "image": "",
+    "type": "desayuno",
+    "dateEntry": ""
+  },
+  {
+    "_id": "2",
+    "name": "Cafe con Leche",
+    "price": "5",
+    "image": "",
+    "type": "desayuno",
+    "dateEntry": ""
+  },
+  {
+    "_id": "3",
+    "name": "Sándwich de jamón y queso",
+    "price": "10",
+    "image": "",
+    "type": "desayuno",
+    "dateEntry": ""
+  },
+  {
+    "_id": "4",
+    "name": "Jugo de frutas natural",
+    "price": "7",
+    "image": "",
+    "type": "desayuno",
+    "dateEntry": ""
+  },
+  {
+    "_id": "5",
+    "name": " Hamburguesa simple",
+    "price": "10",
+    "image": "https://user-images.githubusercontent.com/74528786/144191854-bc22978c-c62d-444d-9fd6-8aac84e526e3.png",
+    "type": "almuerzo",
+    "dateEntry": ""
+  },
+  {
+    "_id": "6",
+    "name": "Hamburguesa doble",
+    "price": "15",
+    "image": "https://user-images.githubusercontent.com/74528786/144191854-bc22978c-c62d-444d-9fd6-8aac84e526e3.png",
+    "type": "almuerzo",
+    "dateEntry": ""
+  },
+  {
+    "_id": "7",
+    "name": "Papas fritas",
+    "price": "5",
+    "image": "https://user-images.githubusercontent.com/74528786/144191761-89e27832-18d1-4b62-8adb-671bd3ddd297.png",
+    "type": "almuerzo",
+    "dateEntry": ""
+  },
+  {
+    "_id": "8",
+    "name": "Aros de cebolla",
+    "price": "5",
+    "image": "https://user-images.githubusercontent.com/74528786/144191639-766b56f4-c381-49cf-95db-17d9d29a5875.png",
+    "type": "almuerzo",
+    "dateEntry": ""
+  },
+  {
+    "_id": "9",
+    "name": "Agua 500ml",
+    "price": "5$",
+    "image": "https://user-images.githubusercontent.com/74528786/144191916-46cacc91-99f8-43d8-9b39-788ae73046da.png",
+    "type": "almuerzo",
+    "dateEntry": ""
+  },
+  {
+    "_id": "10",
+    "name": "Agua 750ml",
+    "price": "7",
+    "image": "https://user-images.githubusercontent.com/74528786/144191916-46cacc91-99f8-43d8-9b39-788ae73046da.png",
+    "type": "almuerzo",
+    "dateEntry": ""
+  },
+  {
+    "_id": "11",
+    "name": "Bebida/gaseosa 500ml",
+    "price": "7",
+    "image": "https://user-images.githubusercontent.com/74528786/144191711-6e21976e-506e-42c5-a59e-18eb7bb31fa7.png",
+    "type": "almuerzo",
+    "dateEntry": ""
+  },
+  {
+    "_id": "12",
+    "name": "Bebida/gaseosa 750ml",
+    "price": "10",
+    "image": "https://user-images.githubusercontent.com/74528786/144191711-6e21976e-506e-42c5-a59e-18eb7bb31fa7.png",
+    "type": "almuerzo",
+    "dateEntry": ""
   }
- 
-
-  
- 
+]

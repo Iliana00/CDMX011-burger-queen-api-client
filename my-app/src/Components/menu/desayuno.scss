@@ -1,56 +1,130 @@
+$pink-color: #FF0099;
+$yellow-color: #FFE045;
+$white-color:#FFFFFF;
+$black-color:#000000;
+$yellow-color: #FFE045;
 $amarill-transp: rgba(255, 224, 69, 0.16);
 
-.desayuno{
-    width: 50%;;
+.main-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-right{
+    display: flex;
+    flex-direction: column;
+    width: 38%;;
+    margin-top: 1rem ;
+    margin-right: 1rem;
+    border: 2px solid $yellow-color;
+    background-color: $amarill-transp;
+}
+.cart-item{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    font-size: 1.3rem;       
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+}
+#name-item{
+    width: 48%;
+}
+#name-price{
+    width: 40%;
+}
+#bote-basura{
+    width: 10%;    
+    height: auto;
+    padding: 3px;
+}
+.container-left{
+    width: 52%;;
     margin-top: 1rem ;
     margin-left: 1rem;
-}
-.precio{
-    display: flex;
-    padding-right: 10%;    
-    flex-direction: column;
-    width: 100%;
-    height: 7vh;
+    padding: 10px;
+    border: 2px solid $yellow-color;
     background-color: $amarill-transp;
-    justify-content: center;
-    align-items: flex-end;
-    margin: auto;
+    border-radius: 5px;
+
 }
+
 .menu-desayuno{
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 7vh;
-    background-color: $amarill-transp;
-    justify-content: center;
+    padding: 5px;
+    justify-content: space-evenly;
     align-items: center;
     margin: auto;
 }
 .img-product{
-    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
     height: 7vh;
-    margin: .5rem;       
+    margin: 5px;         
 }
 .productname{
     width: 40%;
     height: 7vh;
-
-}
-.bttns{
-    width: 35%;
-    height: 7vh;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: flex-start;
 }
 .pdtimg{
     width: 2rem;     
 }
- .menos{
-    width: 20px;
-    height: 20px;
+.bttns-add-rest{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 7vh;
+    margin: .5rem; 
 }
-.mas{
-    width: 20px;
-    height: 20px;
-} 
+.bttn-rest,.bttn-sum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: $pink-color;
+    border-radius: 10px;
+    font-size: 2rem;
+    color: #FFFFFF; 
+
+}
+.bttns{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.bttn-cancel {
+    width: 40%;
+    font-size: 1rem; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    color: #ffffff; 
+    border-radius: 10px;
+    background-color: $yellow-color; 
+    padding: 10px; 
+    }
+.send-kitchen{
+    width: 40%;
+    font-size: 1rem; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    color: #ffffff; 
+    border-radius: 10px;
+    background-color: $pink-color; 
+    padding: 10px; 	    
+}
+        
+
