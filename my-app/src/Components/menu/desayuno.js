@@ -1,9 +1,10 @@
-import React, {Component} from 'react';
 
+
+/*
+import React, {Component} from 'react';
 
 import "./desayuno.scss"
  
-
 export  class Desayuno extends Component {
     constructor(props) {
       super(props);
@@ -50,3 +51,4 @@ export  class Desayuno extends Component {
     }
   }
   
+*/
